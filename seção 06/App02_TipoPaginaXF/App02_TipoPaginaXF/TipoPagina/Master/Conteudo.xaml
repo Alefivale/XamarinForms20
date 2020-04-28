@@ -4,12 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App02_TipoPaginaXF.TipoPagina.Carousel.TipoPagina3" BackgroundColor="LightSkyBlue">
+             Title="Conteúdo"
+             x:Class="App02_TipoPaginaXF.TipoPagina.Master.Conteudo">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
-            <Label Text="Tipo de Página" TextColor="Blue"
+        <StackLayout>
+            <Label Text="Eu sou o conteúdo"
+                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Image ="play.png" Clicked="MudarPagina" BackgroundColor="Transparent"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
